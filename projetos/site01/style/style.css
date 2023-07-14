@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=Victor+Mono&display=swap');
+
+:root {
+    --cor01: #252526;
+    --cor02: #3E3E40;
+    --cor03: #085A8C;
+    --cor04: #0FB2F2;
+        /* Cores e fontes site */
+    --font01: 'Victor Mono', monospace;
+    --font02: 'VT323', monospace;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: var(--cor02);
+    padding-bottom: 20px;
+}
+
+#container {
+    background-color: var(--cor01);
+    padding: 20px;
+}
