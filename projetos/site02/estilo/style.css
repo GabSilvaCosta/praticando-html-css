@@ -1,16 +1,28 @@
 @charset "UTF=8";
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
 table {
     border-collapse: collapse;
-    width: 250px;
+    width: 670px;
 }
 
-th, tr {
+caption {
+    font-weight: bolder;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.733);
+    color: aliceblue;
+}
+
+th, td {
+    padding: 7px;
     border: 1px solid black;
-    
+    text-align: center;
+}
+
+thead {
+    background-color: rgba(0, 0, 0, 0.679);
+    color: white;
+}
+
+tbody {
+    background-color: lightgray;
 }
