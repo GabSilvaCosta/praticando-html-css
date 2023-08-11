@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500&family=Righteous&display=swap');
+
+:root {
+    --font-title: 'Inconsolata', monospace;
+    --font-outros: 'Righteous', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: lightgray url(imagens/back-ground.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+.titulo-principal {
+    color: white;
+    font: bold 4.5em var(--font-title);
+    padding: 30px 0px 10px 30px;
+}
+
+.descricao {
+    color: white;
+    font: normal 1em var(--font-outros);
+    padding-left: 30px;
+}
