@@ -28,3 +28,13 @@ body {
     font: normal 1em var(--font-outros);
     padding-left: 30px;
 }
+
+.menu-navagacao {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
