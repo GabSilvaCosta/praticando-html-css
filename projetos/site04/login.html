@@ -4,16 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login-Site</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <div id="entrada-dados"> <!-- Está div conterá um h1, os inputs name e passaword e etc. -->
+     <div id="entrada-dados"> <!-- Está div conterá um h1, os inputs name e password e etc. -->
         <h1>Welcome Back</h1>
         <form action="cadastro.php" method="post" autocomplete="on">
-            <label for="iusername"></label>
-            <input type="text" name="username" id="iusername" autocomplete="name" placeholder="Username:">
+            <div id="nome">
+                <label for="iusername"></label>
+                <input type="text" name="username" id="iusername" autocomplete="name" placeholder="Username:">
+            </div>
 
-            <label for="passaword"></label>
-            <input type="password" name="passaword" id="ipassaword">
+            <div id="senha">
+                <label for="ipassword"></label>
+                <input type="password" name="password" id="ipassword" placeholder="Password:" autocomplete="new-password">
+            </div>
+
+            <div id="options-password">
+                    <label for="ilembrar" id="teste"></label>
+                    <input type="checkbox" name="lembrar" id="ilembrar"><p>Remenber Password?</p>
+            
+                <a href="">Forgot Password</a>
+            </div>
+
+            <div id="enviar">
+                <input type="submit" value="Login">
+            </div>
         </form>
     </div>
 </body>
