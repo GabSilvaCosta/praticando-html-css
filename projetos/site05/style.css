@@ -10,7 +10,14 @@
 
 header {
     padding-top: 70px;
-    border: 1px solid white;
+    border: .5px solid white;
+}
+
+header img {
+    position: absolute;
+    top: 3%;
+    height: 30px;
+    padding-left: 10px;
 }
 
 body {
@@ -28,5 +35,48 @@ h2 {
     text-align: center;
     font: normal 1.5em Roboto, sans-serif;
     padding-top: 15px;
+}
+
+form {
+    padding: 20px;
+    width: 200px;
+    margin: auto;
+    font-family: Roboto, sans-serif;
+}
+
+form label {
+    text-align: left;
+}
+
+form > input {
+    padding: 05px;
+    margin: 10px 0px 10px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    width: 200px;
+}
+
+#botaologin {
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-25%, -1%);
+    padding-top: 10px;
+
+}
+
+#botaologin input {
+    height: 40px;
+    width: 125px;
+    border-radius: none;
+    border: none;
+    box-shadow: none;
+    font: bold 1em Roboto, sans-serif;
+    text-align: center;
+}
+
+#ibirth {
+    
 }
 

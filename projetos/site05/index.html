@@ -8,26 +8,28 @@
 </head>
 <body>
     <header>
-        
+        <img src="imagens/icon-hamburguer.png" alt="Icone menu hamburguer">
     </header>
     <body>
         <h1>Create new Account</h1>
         <h2>Alredy Registered? Log in here.</h2>
-        <form action="cadstro.php" method="post">
+        <form action="cadstro.php" method="post" autocomplete="on">
             <label for="iname"><p>NAME</p></label>
-            <input type="text" name="name" id="iname">
+            <input type="text" name="name" id="iname" autocomplete="name">
 
             <label for="iemail"><p>EMAIL</p></label>
-            <input type="email" name="email" id="iemail">
+            <input type="email" name="email" id="iemail" autocomplete="email">
 
             <label for="ipassword"><p>PASSWORD</p></label>
-            <input type="password" name="password" id="ipassword">
+            <input type="password" name="password" id="ipassword" autocomplete="new-password">
 
             <label for="ibirth"><p>DATE OF BIRTH</p></label>
-            <input type="date" name="birth" id="ibirth">
+            <input type="date" name="birth" id="ibirth" autocomplete="bday-day">
 
-            <label for="iregistrar"></label>
-            <input type="submit" value="sign up">
+            <div id="botaologin">
+                <label for="iregistrar"></label>
+                <input type="submit" value="sign up">
+            </div>
         </form>
     </body>
 </body>
