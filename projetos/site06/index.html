@@ -4,13 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criando landing-page</title>
+    <style>
+        body {
+            background-color: white;
+
+        }
+    </style>
 </head>
 <body>
     <header>
-
+        <img src="images-icons/logo-32px.png" alt="Logo empresa kkk">
+        <img src="images-icons/icons8-cardápio-ios-16-32.png" alt="Icone de menu">
     </header>
     <main>
-        
+        <h1>Create new account</h1>
+        <p>Nice to meet you!</p>
+
+        <form action="cadastro.php" method="post">
+            <div id="entrada-nome">
+                <label for="inome">name</label>
+                <input type="text" name="nome" id="inome">
+            </div>
+
+            <div id="entrada-email">
+                <label for="iemail">Email</label>
+                <input type="email" name="email" id="iemail"> 
+            </div>
+
+            <div id="entrada-password">
+                <label for="ipassword">Password</label>
+                <input type="password" name="password" id="ipassword">
+            </div>
+
+            <input type="submit" value="Sign up">
+        </form>
     </main>
 </body>
 </html>
