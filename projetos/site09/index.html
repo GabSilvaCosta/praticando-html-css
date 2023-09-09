@@ -3,19 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style/all.css">
     <title>projeto</title>
 </head>
 <body>
     <header>
-        <img src="" alt="">
+        <picture> <!--Aqui fica o logo do site-->
+            <source media="(min-width: 500px)" srcset="images/barba-64px.png">
+            <img src="images/barba.png" alt="logo barbearia">
+        </picture>
             <span class="material-symbols-outlined">
                 menu
             </span>
     </header>
     <main>
-       
+       <h1>Criar nova conta</h1>
+       <p>É um prazer ter você conosco.</p>
+       <form action="cadastro.js" method="post" autocomplete="on">
+
+            <div class="campoinsec"> <!--Esta div é referente a caixa email-->
+                <label for="iemail">Email:</label>
+                <input type="email" name="email" id="iemail" autocomplete="email" required>
+            </div>
+
+            <div class="campoinsec"> <!--Esta div é referente a caixa de senha-->
+                <label for="isenha">Senha:</label>
+                <input type="password" name="senha" id="isenha" autocomplete="current-password" min="8" max="16" required>
+            </div>
+
+            <input type="submit" value="Cadastrar-se">
+       </form>
     </main>
 </body>
 </html>
