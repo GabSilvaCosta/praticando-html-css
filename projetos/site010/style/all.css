@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: #010219;
+    padding: 5px;
+    height: 90px;
+}
+header img {
+    height: 50px;
+    padding: 20px;
+}
+
+header a {
+    background-color: #605f65;
+    width: 120px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 35px;
+}
