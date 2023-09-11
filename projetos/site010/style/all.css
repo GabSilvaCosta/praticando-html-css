@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 * {
+    font-family: 'Quicksand', sans-serif;
     margin: 0px;
     padding: 0px;
 }
@@ -11,18 +12,49 @@ header {
     justify-content: space-between;
     background-color: #010219;
     padding: 5px;
-    height: 90px;
+    height: 75px;
 }
 header img {
-    height: 50px;
-    padding: 20px;
+    height: 55px;
+    padding: 15px;
+    margin-left: 10vw;
 }
 
 header a {
-    background-color: #605f65;
-    width: 120px;
+    background-color: rgb(55,56,72);
+    width: 130px;
     height: 30px;
-    padding: 5px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-right: 10vw;
     text-align: center;
+    text-decoration: none;
+    color: rgb(231, 229, 229);
     border-radius: 35px;
+    border: .3px solid gray;
 }
+
+header a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#secao1 {
+    border-top: 4px solid #187afc;
+    background-image: linear-gradient(to top, #00001E, #05040B);
+}
+
+#secao1 h1 {
+    color: white;
+    font-size: 3.5em;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 1.3em;
+    padding: 0px 25px;
+}
+
+#secao1 p {
+    color: white;
+    text-align: center;
+}
+
