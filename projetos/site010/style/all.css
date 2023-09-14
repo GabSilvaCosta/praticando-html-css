@@ -6,6 +6,10 @@
     padding: 0px;
 }
 
+body {
+    
+}
+
 header {
     display: flex;
     flex-flow: row nowrap;
@@ -23,10 +27,12 @@ header img {
 header a {
     background-color: rgb(55,56,72);
     width: 130px;
-    height: 30px;
-    padding-top: 10px;
+    height: 20px;
+    padding-top: 07px;
+    padding-bottom: 04px;
     margin-top: 20px;
     margin-right: 10vw;
+    font-size: .9em;
     text-align: center;
     text-decoration: none;
     color: rgb(231, 229, 229);
@@ -42,19 +48,31 @@ header a:hover {
 #secao1 {
     border-top: 4px solid #187afc;
     background-image: linear-gradient(to top, #00001E, #05040B);
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 #secao1 h1 {
     color: white;
-    font-size: 3.5em;
+    font-size: 2.5em;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 60px;
     line-height: 1.3em;
     padding: 0px 25px;
 }
 
 #secao1 p {
-    color: white;
+    color: #ADBFBF;
     text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
 }
+
+#secao1 img {
+    height: 350px;
+    width: 900px;
+    align-self: center;
+}
+
+
 
