@@ -6,10 +6,6 @@
     padding: 0px;
 }
 
-body {
-    
-}
-
 header {
     display: flex;
     flex-flow: row nowrap;
@@ -41,7 +37,7 @@ header a {
 }
 
 header a:hover {
-    color: black;
+    color: rgb(255, 255, 255);
     cursor: pointer;
 }
 
@@ -65,14 +61,39 @@ header a:hover {
     color: #ADBFBF;
     text-align: center;
     margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.2em;
     font-weight: 700;
+    line-height: 1.5em;
 }
 
-#secao1 img {
-    height: 350px;
-    width: 900px;
-    align-self: center;
+#img {
+    background: url(../images/devises.png) center center no-repeat scroll;
+    background-size: contain;
+    height: 300px;
 }
 
+#secao1 > img {
+    width: 55px;
+    margin: auto;
+    margin-bottom: 25px;
+}
 
+#plano-fundo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-image: linear-gradient(to top, #000011 70%, #02021b);
+    width: 80%;
+}
 
+.container {
+    border: 1px solid #232323;
+    margin: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: .9em;
+    width: 370px;
+    height: 100px;
+}
