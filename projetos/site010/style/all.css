@@ -6,6 +6,10 @@
     padding: 0px;
 }
 
+html, body {
+    width: 100vw;
+}
+
 header {
     display: flex;
     flex-flow: row nowrap;
@@ -117,12 +121,15 @@ header a:hover {
 }
 
 #vid-info {
+    background-image: linear-gradient(to top,#000001, #000010);
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
 }
 
 #video video {
+    margin-top: 80px;
+    margin-bottom: 50px;
     width: 255px;
     height: 483px;
     border-radius: 15px;
@@ -130,11 +137,12 @@ header a:hover {
 } 
 
 #infoloja {
+    margin-top: 110px;
     display: flex;
     flex-flow: row wrap;
     color: white;
     background-image: linear-gradient(to right, #00000A, #00000C);
-    border: 2px solid lightgray;
+    border: 2px solid rgb(71, 71, 71);
     border-radius: 10px;
     width: 30vw;
     max-width: 330px;
